@@ -25,7 +25,8 @@ fi
 
 if [ "$color_prompt" = yes ]; then
 # purple:green red:green ¶
-PS1='\[\033[01;34m\]\u\[\033[00m\]:\[\033[01;31m\]\W\[\033[00m\]¶ '
+#PS1='\[\033[01;34m\]\u\[\033[00m\]:\[\033[01;31m\]\W\[\033[00m\]¶ '
+PS1='\[\033[01;31m\]Là\[\033[36m\]moore\[\033[00m\]:\[\033[01;31m\]\W\[\033[00m\]¶ '
 else
     PS1='\u:\W¶ '
 fi
@@ -72,15 +73,17 @@ fi
 alias ls="command ls ${colorflag}"
 export LS_COLORS='no=00:fi=00:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:ex=01;32:*.tar=01;31:*.tgz=01;31:*.pkg=01;31:*.taz=01;31:*.lzh=01;31:*.zip=01;31:*.ai=01;31:*.psd=01;31:*.gz=01;31:*.bz2=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.avi=01;35:*.fli=01;35:*.html=01;35:*.db=01;35:*.php=01;35:*.js=01;35:*.ogg=01;35:*.mp3=01;35:*.mp4=01;35:'
 
+
+if [ -x /usr/local/bin/colorls ]; then
+alias ls='colorls'
+alias ll='ls -l'
+alias la='ls -a'
+alias l='ls -d'
+else
 # List all files colorized in long format
 alias l="ls -l ${colorflag}"
 # List all files colorized in long format, including dot files
 alias la="ls -a ${colorflag}"
 # List only directories
 alias lsd='ls -l ${colorflag} | grep "^d"'
-
-
-# some ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
+fi
