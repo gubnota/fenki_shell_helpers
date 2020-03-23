@@ -1,5 +1,5 @@
 #!/bin/bash
-# bash <(curl -s -L http://raw.githubusercontent.com/gubnota/fenki_shell_helpers/master/ffmpeg/ffmpeg_burn_subtitles/run.sh)
+# curl -o run.sh http://raw.githubusercontent.com/gubnota/fenki_shell_helpers/master/ffmpeg/ffmpeg_burn_subtitles/run.sh; bash run.sh
 cd "$(dirname $0)";
 cwd=${PWD##*/}          # to assign to a variable
 if [ 'ffmpeg_burn_subtitles' != $cwd ]; then
@@ -26,4 +26,5 @@ fi
 ffmpeg -i 720p.mp4 -vf "subtitles=18px.srt" 720p_sub.mp4
 ffmpeg -i 360p.mp4 -vf "subtitles=18px.srt" 360p_sub.mp4
 ffmpeg -i 720p.mp4 -vf "subtitles=18px.srt:force_style='OutlineColour=&H50ff0000,BorderStyle=1,Outline=0'" OutlineColour_Blue.1.mp4
-ffmpeg -i 720p.mp4 -vf "subtitles=18px.srt:force_style='OutlineColour=&H00ffffff,BorderStyle=1,Outline=0'" OutlineColour_White.3.mp4
+ffmpeg -i 720p.mp4 -vf "subtitles=18px.srt:force_style='OutlineColour=&H5000ddff,BorderStyle=1,Outline=0'" OutlineColour_Yellow.2.mp4
+ffmpeg -i 720p.mp4 -vf "subtitles=18px.srt:force_style='OutlineColour=&H00ffffff,BorderStyle=3,Outline=0'" OutlineColour_White.3.mp4
