@@ -1,0 +1,135 @@
+1
+00:00:00,000 --> 00:00:02,000
+{\an7}{\bord3.0}<font color="#000000" face="Futura" size="18px"> Top-left: {\an7}</font>
+
+2
+00:00:00,000 --> 00:00:02,000
+{\an8}{\fad(1200,250)}<font color="#ffffff" face="Futura" size="18px">Top-center: {\an8}</font>
+
+3
+00:00:00,000 --> 00:00:02,000
+{\an9}<font color="#ffffff" face="Futura" size="18px">Top-right: {\an9}</font>
+
+4
+00:00:00,000 --> 00:00:02,000
+{\an4}<font color="#ffffff" face="Futura" size="18px">Middle-left: {\an4}</font>
+
+5
+00:00:00,000 --> 00:00:02,000
+{\an5}<font color="#ffffff" face="Futura" size="18px">Middle-center: {\an5}</font>
+
+6
+00:00:00,000 --> 00:00:02,000
+{\an6}<font color="#ffffff" face="Futura" size="18px">Middle-right: {\an6}</font>
+
+7
+00:00:00,000 --> 00:00:02,000
+{\an1}<font color="#ffffff" face="Futura" size="18px">Bottom-left: {\an1}</font>
+
+8
+00:00:00,000 --> 00:00:02,000
+{\an2}<font color="#ffffff" face="Futura" size="18px">Bottom-Center {\an2}</font>
+
+9
+00:00:00,000 --> 00:00:02,000
+{\an3}<font color="#ffffff" face="Futura" size="18px">Bottom-right: {\an3}</font>
+
+10
+00:00:2,000 --> 00:00:4,000 X1:0 X2:0 Y1:23 Y2:23
+<font color="#ddff00" face="Futura" size="18px">● Top Left</font>
+
+11
+00:00:2,000 --> 00:00:4,000 X1:150 X2:150 Y1:23 Y2:23
+<font color="#3300ff" face="Futura" size="18px">◼︎ Top L.Center</font>
+
+12
+00:00:2,000 --> 00:00:4,000 X1:300 X2:300 Y1:23 Y2:23
+<font color="#ddff00" face="Futura" size="18px">◼︎ Top Center</font>
+
+13
+00:00:2,000 --> 00:00:4,000 X1:450 X2:450 Y1:23 Y2:23
+<font color="#99ff99" face="Futura" size="18px">● Top R.Center</font>
+
+14
+00:00:2,000 --> 00:00:4,000 X1:600 X2:600 Y1:23 Y2:23
+<font color="#9999ff" face="Futura" size="18px">● Top Right</font>
+
+15
+00:00:2,000 --> 00:00:4,000 X1:0 X2:0 Y1:128 Y2:128
+<font color="#ddff00" face="Futura" size="18px">● Front Left</font>
+
+16
+00:00:2,000 --> 00:00:4,000 X1:150 X2:150 Y1:128 Y2:128
+<font color="#3300ff" face="Futura" size="18px">◼︎ Front L.Center</font>
+
+17
+00:00:2,000 --> 00:00:4,000 X1:300 X2:300 Y1:128 Y2:128
+<font color="#ddff00" face="Futura" size="18px">◼︎ Front Center</font>
+
+18
+00:00:2,000 --> 00:00:4,000 X1:450 X2:450 Y1:128 Y2:128
+<font color="#99ff99" face="Futura" size="18px">● Front R.Center</font>
+
+19
+00:00:2,000 --> 00:00:4,000 X1:600 X2:600 Y1:128 Y2:128
+<font color="#9999ff" face="Futura" size="18px">● Front Right</font>
+
+20
+00:00:2,000 --> 00:00:4,000 X1:0 X2:0 Y1:245 Y2:245
+<font color="#ddff00" face="Futura" size="18px">● Middle Left</font>
+
+21
+00:00:2,000 --> 00:00:4,000 X1:150 X2:150 Y1:245 Y2:245
+<font color="#3300ff" face="Futura" size="18px">◼︎ Middle L.Center</font>
+
+22
+00:00:2,000 --> 00:00:4,000 X1:300 X2:300 Y1:245 Y2:245
+<font color="#ddff00" face="Futura" size="18px">◼︎ Middle Center</font>
+
+23
+00:00:2,000 --> 00:00:4,000 X1:450 X2:450 Y1:245 Y2:245
+<font color="#99ff99" face="Futura" size="18px">● Middle R.Center</font>
+
+24
+00:00:2,000 --> 00:00:4,000 X1:600 X2:600 Y1:245 Y2:245
+<font color="#9999ff" face="Futura" size="18px">● Middle Right</font>
+
+25
+00:00:2,000 --> 00:00:4,000 X1:0 X2:0 Y1:360 Y2:360
+<font color="#ddff00" face="Futura" size="18px">● Hind Left</font>
+
+26
+00:00:2,000 --> 00:00:4,000 X1:150 X2:150 Y1:360 Y2:360
+<font color="#ff00dd" face="Futura" size="18px">◼︎ Hind L.Center</font>
+
+27
+00:00:2,000 --> 00:00:4,000 X1:300 X2:300 Y1:360 Y2:360
+<font color="#ddff00" face="Futura" size="18px">◼︎ Hind Center</font>
+
+28
+00:00:2,000 --> 00:00:4,000 X1:450 X2:450 Y1:360 Y2:360
+<font color="#99ff99" face="Futura" size="18px">● Hind R.Center</font>
+
+29
+00:00:2,000 --> 00:00:4,000 X1:600 X2:600 Y1:360 Y2:360
+<font color="#9999ff" face="Futura" size="18px">● Hind Right</font>
+
+30
+00:00:2,000 --> 00:00:4,000 X1:0 X2:0 Y1:480 Y2:480
+<font color="#ddff00" face="Futura" size="18px">● Bottom Left</font>
+
+31
+00:00:2,000 --> 00:00:4,000 X1:150 X2:150 Y1:480 Y2:480
+<font color="#ff00dd" face="Futura" size="18px">◼︎ Bottom L.Center</font>
+
+32
+00:00:2,000 --> 00:00:4,000 X1:300 X2:300 Y1:480 Y2:480
+<font color="#ddff00" face="Futura" size="18px">◼︎ Bottom Center</font>
+
+33
+00:00:2,000 --> 00:00:4,000 X1:450 X2:450 Y1:480 Y2:480
+<font color="#99ff99" face="Futura" size="18px">● Bottom R.Center</font>
+
+34
+00:00:2,000 --> 00:00:4,000 X1:600 X2:600 Y1:480 Y2:480
+<font color="#9999ff" face="Futura" size="18px">● Bottom Right</font>
