@@ -29,5 +29,6 @@ fi
 ffmpeg -i 720p.mp4 -vf "subtitles=18px.srt" 720p_sub.mp4
 ffmpeg -i 360p.mp4 -vf "subtitles=18px.srt" 360p_sub.mp4
 ffmpeg -i 720p.mp4 -vf "subtitles=18px.srt:force_style='OutlineColour=&H50ff0000,BorderStyle=1,Outline=0'" OutlineColour_Blue.1.mp4
-ffmpeg -i 720p.mp4 -vf "subtitles=18px.srt:force_style='OutlineColour=&H5000ddff,BorderStyle=1,Outline=0'" OutlineColour_Yellow.2.mp4
+ffmpeg -i 720p.mp4 -vf "subtitles=18px.srt:force_style='OutlineColour=&H0000ffff,BorderStyle=1,Outline=2'" OutlineColour_Yellow.2.mp4
 ffmpeg -i 720p.mp4 -vf "subtitles=18px.srt:force_style='OutlineColour=&H00ffffff,BorderStyle=3,Outline=0'" OutlineColour_White.3.mp4
+# H0 stands for opaque, HF stands for transparent outline, Outline=0 stands for lack of outline, 1 or 2 stands for a certain degree of thickness
